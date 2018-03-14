@@ -79,3 +79,28 @@ Do _not_ worry about performance yet! Optimizations can come later. Clean, logic
 #### 5. Testing!
 Remember, always start with the simplest test case possible. For a Sudoku solver, what's the simplest case? It's working with a board that is only missing one number.
 `609238745274561398853947621486352179792614583531879264945723816328196457167485932`
+
+___
+## Part 2: Guessing
+
+Starting with your attempt from the previous iteration of the Sudoku solver, we now want to add the ability to make guessing.
+
+What happens if a square/cell can contain multiple possible numbers and you don't have enough information to conclude right then and there which number it is?
+
+Most people who play Sudoku do "guessing". Usually this is done by writing possibilities in the corners of the square.
+
+### Task: Implement a guessing-friendly version of Sudoku
+Once we've filled in all cells which have only one possible value, we have to guess. Write out a pseudocode for how that might work before you dive in!
+
+This solver should now be able to solve any Sudoku puzzle, although some will take a long time. Try it with these 10 advance sudoku puzzles!
+
+`096040001100060004504810390007950043030080000405023018010630059059070830003590007`
+`302609005500730000000000900000940000000000109000057060008500006000000003019082040`
+`000075400000000008080190000300001060000000034000068170204000603900000020530200000`
+`300000000050703008000028070700000043000000000003904105400300800100040000968000200`
+`290500007700000400004738012902003064800050070500067200309004005000080700087005109`
+`080020000040500320020309046600090004000640501134050700360004002407230600000700450`
+`608730000200000460000064820080005701900618004031000080860200039050000100100456200`
+`370000001000700005408061090000010000050090460086002030000000000694005203800149500`
+`030500804504200010008009000790806103000005400050000007800000702000704600610300500`
+`000689100800000029150000008403000050200005000090240801084700910500000060060410000`
