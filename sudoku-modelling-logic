@@ -12,10 +12,9 @@ An example is given below:
 
 
 For this challenge, we will be building a solver that fills in **logically necessary** squares and requires no guessing (a square/cell that has one and only one solution). This will be the first iteration of the code.
+You can start by breaking down your problem into smaller, more manageable parts/tasks as follows.
 
-__*Breathe*__: We know this is the hardest challenge you've hit yet. When in doubt, take a step back and reflect on how you or someone else plays Sudoku and **don't get stuck in code!** You can start by breaking down your problem into smaller, more manageable parts/tasks as follows.
-
-### Tasks
+## Part 1: Simple Sudoku
 #### 1. Understanding: Write down the nouns and verbs of the game
 Think carefully about all the nouns and verbs in a Sudoku game. There's the person who created the puzzle (the setter). There's the person who is solving the puzzle (the player). What are the important parts of the board called? How do the player and setting interact with them?
 
